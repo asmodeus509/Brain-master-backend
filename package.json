@@ -1,0 +1,15 @@
+{
+  "name": "brainmaster-backend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Production API backend for BrainMaster Pro",
+  "engines": {"node": ">=18"},
+  "scripts": {"dev": "vercel dev", "start": "vercel dev"},
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "pg": "^8.13.1",
+    "nodemailer": "^6.9.16"
+  },
+  "devDependencies": {"vercel": "^39.1.2"}
+}
